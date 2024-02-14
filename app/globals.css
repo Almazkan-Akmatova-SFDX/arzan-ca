@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+.curly-text {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.very-Bold-text {
+  font-family: "Oswald", sans-serif;
+}
+.navLink {
+  color: inherit; /* Use the inherited color */
+  font-weight: normal;
+  text-decoration: none; /* No underline initially */
+}
+
+.navLink:hover {
+  text-decoration: underline;
+  text-decoration-color: inherit; /* Use the inherited color */
+  text-decoration-thickness: 2px;
+}
+
+.hiddenButton {
+  display: none; /* Hide button initially */
+  position: absolute;
+  /* rest of your button styles */
+}
+
+/* Show button when Flex container is hovered */
+.parentHover:hover .hiddenButton {
+  display: block; /* Show button on hover */
+}
+
+/* FlexComponent.css */
+.flexComponent {
+  background-size: cover !important;
+}
+
+html {
+  overflow-x: hidden;
+}
