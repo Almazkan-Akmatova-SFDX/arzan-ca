@@ -6,7 +6,7 @@ import { MenuData } from "./MenuData";
 import Menu from "../components/sections/Menu";
 export const metadata: Metadata = {
   title: "Menu of Arzan Cafe",
-  description: 
+  description:
     "Welcome to Arzan Cafe. Here, as you can see, our menu is 100% Halal and offers a variety of options.",
 };
 const page = () => {
@@ -15,28 +15,34 @@ const page = () => {
       <NewNavBar cP="menu" />
       <BannerText title="Our Daily menu" image="./assets/MenuBanner.webp" />
       <Menu
-        href={"https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"}
+        href={
+          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
+        }
         btnLabel={"Order Now"}
         foodTypeName="APPETIZERS"
         foodItems={MenuData.APPETIZERS}
         badgeType="TEXT"
       />
       <Menu
-        href={"https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"}
+        href={
+          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
+        }
         btnLabel={"Order Now"}
         foodTypeName="SOUP"
         foodItems={MenuData.SOUPS}
       />
       <Menu
-        href={"https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"}
+        href={
+          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
+        }
         btnLabel={"Order Now"}
         foodTypeName="ENTRÉE"
         foodItems={MenuData.MAINDISHES}
       />
-    
-     
       <Menu
-        href={"https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"}
+        href={
+          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
+        }
         btnLabel={"Order Now"}
         foodTypeName="KEBAB"
         foodItems={MenuData.FASTGRILLEDBROILED}
@@ -44,6 +50,6 @@ const page = () => {
       <Footer cP="Menu" />{" "}
     </>
   );
-}; 
+};
 
 export default page;

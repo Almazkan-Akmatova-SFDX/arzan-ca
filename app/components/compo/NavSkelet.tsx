@@ -1,4 +1,4 @@
-import { Flex, Button, Box } from "@chakra-ui/react";
+import { Flex, Button, Box, Link as OrderLink } from "@chakra-ui/react";
 import { useAnimationControls, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -130,45 +130,63 @@ const NavBarComponent = ({ menuColor, bgColor, cP }: Props) => {
                 color={menuColor}
               />
               <Box>
-                <Button
-                  h="40px"
-                  fontSize="13px"
-                  color="black"
-                  bg="#ddc5a2"
-                  py="10px"
-                  px="24px"
-                  borderRadius="20px"
-                >
-                  <Link href="https://www.doordash.com/store/arzan-cafe-chicago-26144973/">
+                <OrderLink href="https://www.doordash.com/store/arzan-cafe-chicago-26144973/">
+                  <Button
+                    h="40px"
+                    fontSize="13px"
+                    color="black"
+                    bg="#ddc5a2"
+                    py="10px"
+                    px="24px"
+                    borderRadius="20px"
+                  >
                     RESERVATION
-                  </Link>
-                </Button>
+                  </Button>
+                </OrderLink>
               </Box>
               <Box>
-                <Button
-                  h="40px"
-                  fontSize="13px"
-                  color="white"
-                  bg="#F05A2A"
-                  py="10px"
-                  px="24px"
-                  borderRadius="20px"
-                >
-                  <Link href="https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu">
+                <OrderLink href="https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu">
+                  <Button
+                    h="40px"
+                    fontSize="13px"
+                    color="white"
+                    bg="#F05A2A"
+                    py="10px"
+                    px="24px"
+                    borderRadius="20px"
+                  >
                     ORDER NOW
-                  </Link>
-                </Button>
+                  </Button>
+                </OrderLink>
               </Box>
             </Flex>
           </Box>
-          <Button
-            display={{ base: "block", md: "none" }}
-            boxSize="30px"
-            variant="unstyled"
-            onClick={handleClickNav}
-          >
-            <IoMenu color={menuColor} size="24px" />
-          </Button>
+          <Flex direction="row" gap="10px" align="center" justify="center">
+            <OrderLink href="https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu">
+              <Button
+                display={{ base: "block", md: "none" }}
+                h="35px"
+                fontSize="13px"
+                color="white"
+                bg="#F05A2A"
+                py="10px"
+                px="18px"
+                borderRadius="20px"
+              >
+                <Link href="https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu">
+                  ORDER NOW
+                </Link>
+              </Button>
+            </OrderLink>
+            <Button
+              display={{ base: "block", md: "none" }}
+              boxSize="30px"
+              variant="unstyled"
+              onClick={handleClickNav}
+            >
+              <IoMenu color={menuColor} size="24px" />
+            </Button>
+          </Flex>
         </Flex>
       </Flex>
       {/* New Menu component */}
