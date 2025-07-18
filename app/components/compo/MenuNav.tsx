@@ -150,9 +150,11 @@ const MenuNav = ({
               color="white"
               borderRadius="3xl"
             >
-              <Link href="https://www.doordash.com/store/arzan-cafe-chicago-26144973/">
+              /*
+              <Link href="https://order.toasttab.com/online/arzan-cafe">
                 RESERVATION
               </Link>
+              */
             </Button>
           </Flex>
           

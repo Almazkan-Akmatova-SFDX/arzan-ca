@@ -130,7 +130,7 @@ const NavBarComponent = ({ menuColor, bgColor, cP }: Props) => {
                 color={menuColor}
               />
               <Box>
-                <OrderLink href="https://www.doordash.com/store/arzan-cafe-chicago-26144973/">
+                <OrderLink href="https://order.toasttab.com/online/arzan-cafe">
                   <Button
                     h="40px"
                     fontSize="13px"
@@ -145,7 +145,7 @@ const NavBarComponent = ({ menuColor, bgColor, cP }: Props) => {
                 </OrderLink>
               </Box>
               <Box>
-                <OrderLink href="https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu">
+                <OrderLink href="https://order.toasttab.com/online/arzan-cafe">
                   <Button
                     h="40px"
                     fontSize="13px"
@@ -162,7 +162,7 @@ const NavBarComponent = ({ menuColor, bgColor, cP }: Props) => {
             </Flex>
           </Box>
           <Flex direction="row" gap="10px" align="center" justify="center">
-            <OrderLink href="https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu">
+            <OrderLink href="https://order.toasttab.com/online/arzan-cafe">
               <Button
                 display={{ base: "block", md: "none" }}
                 h="35px"
@@ -173,7 +173,7 @@ const NavBarComponent = ({ menuColor, bgColor, cP }: Props) => {
                 px="18px"
                 borderRadius="20px"
               >
-                <Link href="https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu">
+                <Link href="https://order.toasttab.com/online/arzan-cafe">
                   ORDER NOW
                 </Link>
               </Button>
