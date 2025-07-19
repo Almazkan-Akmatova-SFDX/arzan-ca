@@ -64,7 +64,7 @@ const Hero = () => {
             </Text>
             {/* Order Now Button - Make sure to style the button as needed */}
 
-            <Link href="https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu">
+            <Link href="https://order.toasttab.com/online/arzan-cafe">
               <Button
                 h="48px"
                 bgColor="#ddc5a2"
