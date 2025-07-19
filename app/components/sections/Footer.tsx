@@ -104,7 +104,7 @@ export default function LargeWithAppLinksAndSocial({ cP }: { cP: string }) {
                 </Text>
               </Link>
             </Box>
-            <Box as="a">
+            {/*<Box as="a">
               <Link
                 className="navLink"
                 href="https://maps.app.goo.gl/TZcmkbEwnehRCMun9"
@@ -117,7 +117,7 @@ export default function LargeWithAppLinksAndSocial({ cP }: { cP: string }) {
                   IL 60008
                 </Text>
               </Link>
-            </Box>
+            </Box>*/}
             <Flex justify="center" as="a">
               <Link className="navLink" href="mailto:info@mirnur.com">
                 <Text> info@mirnur.com</Text>
