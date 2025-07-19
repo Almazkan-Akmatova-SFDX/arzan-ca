@@ -171,7 +171,7 @@ export default function LargeWithAppLinksAndSocial({ cP }: { cP: string }) {
           justify={{ md: "space-between" }}
           align={{ md: "center" }}
         >
-          <Text>Copyright © 2023 ARZAN Restaurant. - All Rights Reserved.</Text>
+          <Text>Copyright © 2022 Arzan Cafe - All Rights Reserved.</Text>
           <Stack direction={"row"} spacing={6}>
             <SocialButton
               label={"Yelp"}
