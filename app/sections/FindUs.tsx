@@ -81,7 +81,7 @@ const FindUs = () => {
                 </Text>
               </Link>
 
-              <Link
+              {/*<Link
                 href="https://maps.app.goo.gl/TZcmkbEwnehRCMun9"
                 mb="24px"
                 textAlign="center"
@@ -94,13 +94,13 @@ const FindUs = () => {
                   <br />
                   IL 60008
                 </Text>
-              </Link>
+              </Link>*/}
               <Link mb="12px" href="/">
-                abc@example.com
+                info@mirnur.com
               </Link>
               <Text>
                 <Link href="tel:312-898-2432">
-                  <Text>(312) ARZAN-CAFE</Text>
+                  <Text>(312) 898-2432</Text>
                 </Link>
               </Text>
             </Flex>
