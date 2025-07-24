@@ -52,7 +52,7 @@ export const MenuData = {
       id: 8,
       name: "MANTY",
       description: "Central Asian style dumplings, stuffed w beef and onions",
-      image: "/menuitems/Pumpkin-manty.webp",
+      image: "/menuitems/Manty.webp",
       categories: [""],
       price: 16.99,
     },
@@ -111,7 +111,7 @@ export const MenuData = {
       description: "Two beef cutlets, pan-fried and breaded, served with mashed potatoes",
       image: "/menuitems/Beef-cutlets.webp",
       categories: [""],
-      price: 15,
+      price: 15.99,
     },
     {
       id: 15,
