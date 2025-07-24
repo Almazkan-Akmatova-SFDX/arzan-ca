@@ -4,7 +4,7 @@ export const MenuData = {
       id: 1,
       name: "PLOV",
       description: "Central Asian rice w beef and carrots",
-      image: "/menuitems/Uzgen-plov.webp",
+      image: "/menuitems/Plov.webp",
       categories: [""],
       price: 15,
     },
