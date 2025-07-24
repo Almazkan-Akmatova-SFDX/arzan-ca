@@ -15,7 +15,7 @@ export const MenuData = {
       image: "",
       categories: [""],
       price: 17,
-    },*/
+    },
     {
       id: 3,
       name: "UZGEN PLOV",
@@ -23,7 +23,7 @@ export const MenuData = {
       image: "/assets/Uzgen-plov.jpg",
       categories: [""],
       price: 17,
-    },
+    },*/
     {
       id: 4,
       name: "LAMB KUURDAK",
