@@ -21,29 +21,29 @@ export default function Home() {
     items: [
       {
         id: 1,
-        name: "OROMO",
+        name: "BOSO LAGMAN",
         description:
-          "Traditional-steamed pie stuffed with minced meat, potatoes&onions",
-          image: "/menuitems/Oromo.webp",
+          "Hand-pulled noodles stir fried with beef & vegetables",
+          image: "/menuitems/Boso-lagman.webp",
         categories: [""],
-        price: 13,
+        price: 19.99,
       },
       {
         id: 2,
-        name: "GAN-FAN",
-        description: "Sauteed beef, peppers, onions served over rice",
-        image: "/menuitems/Gan-fan.webp",
+        name: "PLOV",
+        description: "Central Asian rice with beef and carrots",
+        image: "/menuitems/Plov.webp",
         categories: [""],
-        price: 14,
+        price: 15.99,
       },
       {
         id: 3,
-        name: "GYURO LAGMAN",
+        name: "SHAWARMA",
         description:
-          "Stir fried beef & vegetables served w hand-pulled noodles",
-        image: "/menuitems/Lagman.jpg",
+          "Beef & lamb wrap with vegies and house-made sauce",
+        image: "/menuitems/Beef-shawarma.webp",
         categories: [""],
-        price: 20,
+        price: 10,
       },
     ],
   };
@@ -51,7 +51,7 @@ export default function Home() {
     <>
       <NewNavBar cP="home" />
       <Hero />
-      <OurStory />
+      {/*<OurStory />*/}
       {/* <MembershipPlans /> */}
       <Menu
         foodItems={menuItems.items}
@@ -61,10 +61,10 @@ export default function Home() {
       />
       <Catering />
       <Fresh />
-      <MoreDishes />
+      {/*<MoreDishes />*/}
       <BookTable />
       <FromOwner />
-      <Specials />
+      {/*<Specials />*/}
       <Gallery />
       <Reviews />
       <FindUs />
