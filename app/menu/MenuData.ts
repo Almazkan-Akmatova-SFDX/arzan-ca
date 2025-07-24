@@ -8,14 +8,14 @@ export const MenuData = {
       categories: [""],
       price: 15,
     },
-    {
+    {/*{
       id: 2,
       name: "PLOV with KAZY",
       description: "Rice with beef, carrots, and traditional sausage",
       image: "",
       categories: [""],
       price: 17,
-    },
+    },*/}
     {
       id: 3,
       name: "UZGEN PLOV",
