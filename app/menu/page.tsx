@@ -28,7 +28,16 @@ const page = () => {
           "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
         }
         btnLabel={"Order Now"}
-        foodTypeName="SOUP"
+        foodTypeName="SALADS"
+        foodItems={MenuData.SALADS}
+        badgeType="TEXT"
+      />
+      <Menu
+        href={
+          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
+        }
+        btnLabel={"Order Now"}
+        foodTypeName="SOUPS"
         foodItems={MenuData.SOUPS}
       />
       <Menu
@@ -36,7 +45,15 @@ const page = () => {
           "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
         }
         btnLabel={"Order Now"}
-        foodTypeName="ENTRÉE"
+        foodTypeName="SALADS"
+        foodItems={MenuData.SALADS}
+      />
+      <Menu
+        href={
+          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
+        }
+        btnLabel={"Order Now"}
+        foodTypeName="MAINS"
         foodItems={MenuData.MAINDISHES}
       />
       <Menu
@@ -44,8 +61,16 @@ const page = () => {
           "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
         }
         btnLabel={"Order Now"}
-        foodTypeName="KEBAB"
-        foodItems={MenuData.FASTGRILLEDBROILED}
+        foodTypeName="KEBABS"
+        foodItems={MenuData.KEBABS}
+      />
+      <Menu
+        href={
+          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
+        }
+        btnLabel={"Order Now"}
+        foodTypeName="ARZAN GRILL"
+        foodItems={MenuData["ARZAN GRILL"]}
       />
       <Footer cP="Menu" />{" "}
     </>
