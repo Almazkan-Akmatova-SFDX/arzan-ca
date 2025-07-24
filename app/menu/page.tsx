@@ -13,7 +13,7 @@ const page = () => {
   return (
     <>
       <NewNavBar cP="menu" />
-      <BannerText title="Our Menu" image="/assets/Menubanner.webp" />
+      <BannerText title="Our Menu" image="/assets/MenuBanner.webp" />
       <Menu
         href={
           "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
