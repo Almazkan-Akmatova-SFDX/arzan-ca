@@ -6,7 +6,7 @@ export const MenuData = {
       description: "Central Asian rice w beef and carrots",
       image: "/menuitems/Plov.webp",
       categories: [""],
-      price: 15,
+      price: 15.99,
     },
     /*{
       id: 2,
@@ -30,48 +30,40 @@ export const MenuData = {
       description: "Stewed lamb with potatoes and onions",
       image: "/menuitems/Lamb-kuurdak.webp",
       categories: [""],
-      price: 22,
+      price: 25.99,
     },
-    {
-      id: 5,
-      name: "CHICKEN KUURDAK",
-      description: "Stewed chicken with potatoes and onions",
-      image: "/menuitems/Chicken-kuurdak.webp",
-      categories: [""],
-      price: 15,
-    },
-    {
+    /*{
       id: 6,
       name: "BESHBARMAK",
       description: "Finely chopped boiled beef with egg noodles",
       image: "/menuitems/Beshbarmak.webp",
       categories: [""],
       price: 18,
-    },
-    {
+    },*/
+    /*{
       id: 7,
       name: "JIZ-BIZ",
       description: "Fried lamb pieces with french fries",
       image: "/menuitems/Jiz-Biz.webp",
       categories: [""],
       price: 22,
-    },
+    },*/
     {
       id: 8,
       name: "MANTY",
       description: "Central Asian style dumplings, stuffed w beef and onions",
       image: "/menuitems/Pumpkin-manty.webp",
       categories: [""],
-      price: 15,
+      price: 16.99,
     },
-    {
+    /*{
       id: 9,
       name: "PUMPKIN MANTY",
       description: "Central Asian style dumplings, stuffed with pumpkin and onions",
       image: "/menuitems/Pumpkin-manty.webp",
       categories: [""],
       price: 12,
-    },
+    },*/
     {
       id: 10,
       name: "OROMO",
@@ -79,7 +71,7 @@ export const MenuData = {
         "Traditional-steamed pie stuffed with minced meat, potatoes&onions",
       image: "/menuitems/Oromo.webp",
       categories: [""],
-      price: 13,
+      price: 15.99,
     },
     {
       id: 11,
@@ -87,15 +79,15 @@ export const MenuData = {
       description: "Sauteed beef, peppers, onions served over rice",
       image: "/menuitems/Gan-fan.webp",
       categories: [""],
-      price: 14,
+      price: 16.99,
     },
     {
       id: 12,
-      name: "GYURO LAGMAN",
-      description: "Stir fried beef & vegetables served w hand-pulled noodles",
-      image: "/menuitems/Gyuro-lagman.webp",
+      name: "LAGMAN",
+      description: "Hand-pulled noodle soup with beef and vegetables",
+      image: "/menuitems/Lagman.webp",
       categories: [""],
-      price: 20,
+      price: 16.99,
     },
     {
       id: 13,
@@ -103,7 +95,7 @@ export const MenuData = {
       description: "Hand-pulled noodles stir fried with beef & vegetables",
       image: "/menuitems/Boso-lagman.webp",
       categories: [""],
-      price: 18,
+      price: 19.99,
     },
     {
       id: 14,
@@ -111,7 +103,15 @@ export const MenuData = {
       description: "Traditional Uyghur meal, spicy beef and vegetables",
       image: "/menuitems/Achuu-et.webp",
       categories: [""],
-      price: 19,
+      price: 23.99,
+    },
+    {
+      id: 5,
+      name: "BEEF CUTLETS",
+      description: "Two beef cutlets, pan-fried and breaded, served with mashed potatoes",
+      image: "/menuitems/Beef-cutlets.webp",
+      categories: [""],
+      price: 15,
     },
     {
       id: 15,
@@ -119,7 +119,7 @@ export const MenuData = {
       description: "Stuffed pastry made w beef, onion and cooked in tandoor",
       image: "/menuitems/Tandoor-samsa.webp",
       categories: [""],
-      price: 7,
+      price: 7.49,
     },
     {
       id: 16,
