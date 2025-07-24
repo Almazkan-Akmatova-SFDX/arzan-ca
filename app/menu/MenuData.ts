@@ -201,7 +201,7 @@ export const MenuData = {
     {
       id: 4,
       name: "CHEBUREK with BEEF",
-      description: "Savory meat-filled turnover, fried to perfection",
+      description: "Savory meat-filled turnover, fried to perfection. Price is per piece",
       image: "/menuitems/Cheburek-meat.webp",
       categories: ["H", "V"],
       price: 5.50,
@@ -209,7 +209,7 @@ export const MenuData = {
     {
       id: 5,
       name: "CHEBUREK with SPINACH",
-      description: "Savory spinach-filled turnover, fried to perfection",
+      description: "Savory spinach-filled turnover, fried to perfection. Price is per piece",
       image: "/menuitems/Cheburek-meat.webp",
       categories: ["H", "V"],
       price: 5.50,
