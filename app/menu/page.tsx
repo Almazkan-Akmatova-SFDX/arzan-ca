@@ -45,14 +45,6 @@ const page = () => {
           "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
         }
         btnLabel={"Order Now"}
-        foodTypeName="SALADS"
-        foodItems={MenuData.SALADS}
-      />
-      <Menu
-        href={
-          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
-        }
-        btnLabel={"Order Now"}
         foodTypeName="MAINS"
         foodItems={MenuData.MAINDISHES}
       />
