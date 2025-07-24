@@ -17,7 +17,7 @@ const Hero = () => {
         backgroundPosition="center" // Set background position
         backgroundSize="cover" // Set background size
         backgroundRepeat="no-repeat" // Prevent background repeat
-        style={{ backgroundImage: `url('/assets/Boso.jpeg')` }} // Add image to the background
+        style={{ backgroundImage: `url('/assets/heroback')` }} // Add image to the background
       >
         <Flex
           backgroundColor="rgba(0,0,0,0.5)" // Semi-transparent overlay
