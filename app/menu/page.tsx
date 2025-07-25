@@ -16,7 +16,7 @@ const page = () => {
       <BannerText title="Our Menu" image="/assets/MenuBanner.webp" />
       <Menu
         href={
-          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
+          "https://order.toasttab.com/online/arzan-cafe"
         }
         btnLabel={"Order Now"}
         foodTypeName="APPETIZERS"
@@ -25,7 +25,7 @@ const page = () => {
       />
       <Menu
         href={
-          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
+          "https://order.toasttab.com/online/arzan-cafe"
         }
         btnLabel={"Order Now"}
         foodTypeName="SALADS"
@@ -34,7 +34,7 @@ const page = () => {
       />
       <Menu
         href={
-          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
+          "https://order.toasttab.com/online/arzan-cafe"
         }
         btnLabel={"Order Now"}
         foodTypeName="SOUPS"
@@ -42,7 +42,7 @@ const page = () => {
       />
       <Menu
         href={
-          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
+          "https://order.toasttab.com/online/arzan-cafe"
         }
         btnLabel={"Order Now"}
         foodTypeName="MAINS"
@@ -50,7 +50,7 @@ const page = () => {
       />
       <Menu
         href={
-          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
+          "https://order.toasttab.com/online/arzan-cafe"
         }
         btnLabel={"Order Now"}
         foodTypeName="KEBABS"
@@ -58,7 +58,7 @@ const page = () => {
       />
       <Menu
         href={
-          "https://slicelife.com/restaurants/il/chicago/60625/arzan-cafe/menu"
+          "https://order.toasttab.com/online/arzan-cafe"
         }
         btnLabel={"Order Now"}
         foodTypeName="ARZAN GRILL"
