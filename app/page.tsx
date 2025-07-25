@@ -56,7 +56,7 @@ export default function Home() {
       <Menu
         foodItems={menuItems.items}
         foodTypeName={menuItems.foodType}
-        href={"/menu"}
+        href={"/menu/page.tsx"}
         btnLabel={"View Full Menu"}
       />
       <Catering />
