@@ -2,6 +2,7 @@ import { Box, ChakraProvider } from "@chakra-ui/react";
 import type { Metadata } from "next";
 import { Karla } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 const karla = Karla({ weight: "700", subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,6 +18,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      {/* ✅ Google Ads Tag */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=AW-11291723638"
+        strategy="afterInteractive"
+      />
+      <Script
+        id="google-ads"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-11291723638');
+          `,
+        }}
+      />
       <ChakraProvider>
         <body className={karla.className} style={{ backgroundColor: "black" }}>
           <main style={{ backgroundColor: "white" }}>
