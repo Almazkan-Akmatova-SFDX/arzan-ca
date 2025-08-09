@@ -616,7 +616,7 @@ export const MenuData = {
       description: "Variety of 6 skewered kebabs and 1 skewer of lamb chops served with rice and french fries",
       image: "/menuitems/Mixed-shashlyk.webp",
       categories: [""],
-      price: 8.99,
+      price: 85.99,
     },
   ],
   "SPECIALORDER": [
